@@ -8,7 +8,7 @@ public class SecureFileDemo {
 
     public static void main(String[] args) {
         try {
-            File.createTempFile("prefix", "suffix");
+            File.createTempFile("fred", "barney");
         } catch (IOException e) {
             throw new UncheckedIOException(e);
         }
